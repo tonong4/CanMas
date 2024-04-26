@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home{
+    background-image: url(/assets/businessfornature-banner.png);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+}
+
+
+
+.main-img__box{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    }
+
+.slide_1{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.card-box{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    padding: 20px;
+    margin: 20px;
+    width: 230px;
+    height: 350px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card img {
+    margin-top: 30px;
+    width: 60%;
+}
+
+.card h2 {
+    margin-top: 50px;
+    color: #333333;
+    font-size: 30px;
+}
+
+.card p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.4;
+}
