@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: calc(100% - 80px); /* Ajusta la altura para excluir el header */
+}
+
+.sidebar {
+    width: 250px; /* Ajusta el ancho según tus necesidades */
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    position: absolute;
+    top: 35%; /* Ajusta según la altura del header */
+    left: 0;
+    overflow-y: auto;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 250px; /* El mismo valor que el ancho de .sidebar */
+}
+
+header {
+    height: 35%; /* Ajusta la altura del header según tus necesidades */
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .title h1 {
+    
+    
+}

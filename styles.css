@@ -1,5 +1,9 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -11,7 +15,7 @@ body{
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     position: relative;
 }
 
@@ -20,7 +24,7 @@ body{
 .slide-1{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(207, 166, 166);
+    background-color: rgb(255, 255, 255);
 }
 
 /* slide 1  cartes*/
@@ -57,11 +61,25 @@ body{
     font-size: 14px;
     line-height: 1.4;
 }
+
+.card:hover{
+    padding: 50px;
+    margin: 50px;
+    width: 250px;
+    transition: 1s;
+}
+
+.card::after{
+    padding: 20px;
+    margin: 20px;
+    width: 230px;
+    transition: 1s;
+}
 /* slide2 */
 .slide-2{
     width: 100vw;
     height: 140vh;
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(255, 255, 255);
     margin-top: 8%;
 }  
 
@@ -70,7 +88,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
   }
   
@@ -79,8 +97,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: rgb(245, 211, 167);
   }
+  
   
   .grid-item img {
     max-width: 100%;
@@ -97,7 +116,7 @@ body{
 .slide-3{
     width: 100vw;
     height: 80vh;
-    background-color: rgb(172, 47, 255);
+    background-color: rgb(255, 255, 255);
     display: flex;
 }
 
